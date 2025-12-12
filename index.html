@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Birthday — A Special Surprise</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-heart">💫</span> For [FRIEND_NAME]</a>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="memories.html">Memories</a>
+        <a href="secret.html" id="secret-link">Secret</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Particle canvas/background -->
+  <canvas id="hero-particles" class="hero-canvas" aria-hidden="true"></canvas>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="logo-cursive">Happy Birthday, <span id="friend-name">Rakshana</span> 🎉</h1>
+          <p class="lead">Wishing you a day full of laughter, colour, and unforgettable moments. This page is built just for you 💖</p>
+
+          <!-- Typewriter text -->
+          <div class="typewriter-wrap" aria-hidden="false">
+            <p id="typewriter" aria-live="polite"></p>
+          </div>
+
+          <!-- CTA -->
+          <div class="cta-row">
+            <button id="open-gallery" class="btn primary">Explore Memories</button>
+            <button id="reveal-secret" class="btn outline">A Sweet Surprise</button>
+          </div>
+
+          <p class="small-note">Happy Birthday My dear Friend 🐻.</p>
+        </div>
+
+        <div class="hero-right">
+          <!-- stylish card with floating petals/gradient -->
+          <div class="portrait-card">
+            <!-- Replace with your uploaded portrait inside assets/ -->
+            <img src="" alt="Birthday Person Potrait" id="portrait-img">
+            <div class="card-accent"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <div class="feature">
+        <h3>Me 🤝</h3>
+        <p>We started as just two simple friends 🤗, sharing jokes 😂 and little secrets 🤫 like they were treasures ✨.</p>
+      </div>
+      <div class="feature">
+        <h3>we 🤍</h3>
+        <p>Then slowly 💭, you became the person I looked for first 👀 — the one who made my days lighter 🌤️ and my heart calmer 🌿.</p>
+      </div>
+      <div class="feature">
+        <h3>Us 🫶 </h3>
+        <p>And now 🫂, our friendship 🌸 has grown into a bond 🌟 — the kind that feels safe 🏡, strong 💪, and impossible to replace ♾️.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>Made with ❤️ . **********</small>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
